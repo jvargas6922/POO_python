@@ -16,3 +16,7 @@ class Pelota():
     @staticmethod
     def girar():
         print("La pelota está girando")
+    
+    @staticmethod
+    def crear_rebote():
+        return [5, 0, 4, 0, 3, 0, 2, 0, 1, 0]

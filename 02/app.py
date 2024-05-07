@@ -1,9 +1,9 @@
 from pelota import Pelota
 
-pelota_jose = Pelota()
+# pelota_jose = Pelota()
 # print(pelota_jose)
-print(pelota_jose.forma)
-print(pelota_jose.material)
+# print(pelota_jose.forma)
+# print(pelota_jose.material)
 # print(pelota_jose.color)
 # print(pelota_jose.diametro)
 
@@ -29,9 +29,11 @@ print(pelota_jose.material)
 
 
 #METODOS ESTÁTICO
-# Pelota.rodar()
-# Pelota.rebotar()
-# Pelota.girar()
+Pelota.rodar()
+Pelota.rebotar()
+Pelota.girar()
+accion = Pelota.crear_rebote()
+print(accion)
 
 
 """

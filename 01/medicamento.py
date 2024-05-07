@@ -9,7 +9,7 @@ METODOS: SON LAS ACCIONES QUE UN OBJETO PUEDE REALIZAR
 # DEFINICION DE CLASE
 class Medicamento():
     #ATRIBUTOS
-    descuento = 0.05
+    descuento = 0.10
     #IVA ES UNA ATRIBUTO PERO TAMBIEN COMO LO ESCRIBIMOS EN MAYUSCULA ES UNA CONSTANTE
     IVA = 0.19
 
@@ -25,3 +25,17 @@ class Medicamento():
     @staticmethod
     def precio_final_IVA(precio):
         return precio + (precio * Medicamento.IVA)
+    
+    def validar_mayor_a_cero(numero: int):
+        # return numero > 0
+        #CASO1 => numero = -1
+        #CASO2 => numero = 2
+
+        if numero > 0:
+            return "Dato valido"
+        else:
+            return "Dato invalido"
+        
+    #METODOS DE INSTANCIA
+    def precio_final_2(self,precio):
+        return precio - (precio * self.descuento)
