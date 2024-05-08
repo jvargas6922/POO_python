@@ -1,6 +1,5 @@
 from te import Te
 
-
 te = Te()
 
 print('Bienvenidos Tienda Té')

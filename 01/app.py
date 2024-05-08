@@ -1,6 +1,6 @@
 from medicamento import Medicamento
 
-# primer_medicamento = Medicamento()
+primer_medicamento = Medicamento()
 # print(primer_medicamento.descuento)
 # print(primer_medicamento.IVA)
 
@@ -28,8 +28,13 @@ Medicamento.oferta()
 #CASO PRECIO DE MEDICAMENTO
 precio = int(input("Ingrese el precio del medicamento \n"))
 # Medicamento.precio_final(precio)
-Medicamento.precio_final_IVA(precio)
-# print(f"El precio final del medicamento con descuento es: {Medicamento.precio_final(precio)}")
-print(f"El precio final del medicamento con descuento es: {Medicamento.precio_final_IVA(precio)}")
+# Medicamento.precio_final_IVA(precio)
+# # print(f"El precio final del medicamento con descuento es: {Medicamento.precio_final(precio)}")
+# print(f"El precio final del medicamento con descuento es: {Medicamento.precio_final_IVA(precio)}")
+
+primer_medicamento.asigna_precio(precio)
+print(primer_medicamento.descuento)
+
+
 
 

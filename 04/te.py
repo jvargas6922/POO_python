@@ -1,30 +1,3 @@
-"""
-ENTRADA 
-     - formato_a = 300
-     - formato_b = 500
-    - tipo_a = te negro
-    - tipo_b = te verde
-    - tipo_c = infucion de hiervas
-    - tiempo de preparacion_a = 3 min 
-    - tiempo_preparacion_b = 5 min 
-    - tiempo_preparacion_c = 6 min 
-    - tiempo duracion = 1 año o 365 dias
-    precio_a = 3000
-    precio_b = 5000 
-    - recomendacion_a = desayuno
-    - recomendacion_b = medio dia
-    - recomendacion_c = atardecer
-    
-
-PROCESO 
-
-
-SALIDA
-
-lista = [a, b, c]
-         0, 1, 2
-
-"""
 class Te():
     formato =['300','500']
     tipo = ['Té negro','Té verde','Infución de hiervas']
@@ -32,7 +5,6 @@ class Te():
     tiempo_duracion = 1
     precio = [3000, 5000]
     recomendacion = ['Desayuno','Almuerzo','Cena']
-
 
     @staticmethod
     def presentacion(tipo_presentacion: int):

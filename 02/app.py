@@ -1,10 +1,11 @@
 from pelota import Pelota
+from balon import Balon
 
 pelota_jose = Pelota()
 # print(pelota_jose)
 # print(pelota_jose.forma)
 # print(pelota_jose.material)
-print(pelota_jose.color)
+print("color",pelota_jose.color)
 # print(pelota_jose.diametro)
 
 #INSTANCIAS DE CLASE PELOTA
@@ -45,11 +46,25 @@ class Pelota():
 
 #LLAMAR A NUESTRO METODO NO ESTATICO.
 #LLAMAMOS METODO PARA CAMBIAR COLOR
-pelota_jose.asignar_color('verde')
-#LLAMAMOS METODO QUE NOS DA EL COLOR 
-pelota_jose.leer_color()
+# color = input("ingrese un color:\n")
+# pelota_jose.asignar_color(color)
+# pelota_jose.leer_color()
 
-pelota_jose.asignar_color('rojo')
+# color2 = input("ingrese otro color:\n")
+# pelota_jose.lee_color_local_y_atributo(color2)
+# #LLAMAMOS METODO QUE NOS DA EL COLOR 
+# pelota_jose.leer_color()
 
-pelota_jose.lee_color_local_y_atributo('rosado')
+# pelota_jose.asignar_color('rojo')
+
+# pelota_jose.lee_color_local_y_atributo('rosado')
+
+balon_futbol = Balon()
+# balon_futbol.forma
+color = input("Ingrese un color:\n")
+balon_futbol.asignar_color(color)
+balon_futbol.lee_color_y_forma()
+
+
+
 
