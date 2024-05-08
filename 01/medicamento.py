@@ -39,3 +39,6 @@ class Medicamento():
     #METODOS DE INSTANCIA
     def precio_final_2(self,precio):
         return precio - (precio * self.descuento)
+    
+    def asigna_precio(self,precio):
+        self.precio = precio
