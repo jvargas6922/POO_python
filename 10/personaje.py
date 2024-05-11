@@ -5,7 +5,7 @@ class Personaje():
         self.nivel = 1
         self.experiencia = 0
 
-    #Geeeter
+    #Getter
     @property
     def estado(self):
         return print(f"Nombre: {self.nombre}\nNivel: {self.nivel}\nExperiencia: {self.experiencia}")
