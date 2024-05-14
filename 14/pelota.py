@@ -1,10 +1,10 @@
 class Superficie():
     def __init__(self):
-        self.__resistecia = 2
+        self.__resistencia = 2
 
     @property
     def resistencia(self):
-        return self.__resistecia
+        return self.__resistencia
     
 class Pelota():
     def rebotar(self, altura: float):

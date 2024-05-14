@@ -1,6 +1,6 @@
 from abc import ABC, abstractmethod
 
-class Material():
+class Material(ABC):
     @abstractmethod
     def romper(self):
         pass
