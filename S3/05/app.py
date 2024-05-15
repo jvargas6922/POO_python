@@ -41,7 +41,7 @@ aplicar encapsulamiento de los atributos.
 from jugador import Jugador
 from monstruo import Monstruo
 
-enfrentados = [Jugador(500, 10, 5, "espada"), Monstruo(1000, 1, 8)]
+enfrentados = [Jugador(800, 10, 5, "espada"), Monstruo(1000, 1, 8)]
 atk = 0
 
 while any(e.hp <= 0 for e in enfrentados) == False:

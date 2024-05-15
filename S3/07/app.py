@@ -24,8 +24,8 @@ class PelotaDeFutbol(PelotaDeDeporte):
     def cantidad_hexagonos(self):
         return self.__cantidad_hexagonos
         
-pdf = PelotaDeFutbol("Blanco y Negro", 15)
+pelota = PelotaDeFutbol("Blanco y Negro", 15)
 # Salida: Blanco y Negro
-print(pdf.color)
+print(pelota.color)
 # Salida: 15
-print(pdf.cantidad_hexagonos)
+print(pelota.cantidad_hexagonos)

@@ -1,3 +1,4 @@
+#clase padre
 class PelotaDeDeporte():
     def __init__(self, color: str) -> None:
         self.__color = color
@@ -9,7 +10,8 @@ class PelotaDeDeporte():
     @color.setter
     def color(self, color) -> None:
         self.__color = color
-
+        
+#clase hija
 class PelotaDeFutbol(PelotaDeDeporte):
     def __init__(self, color: str, cantidad_hexagonos: int) -> None:
         super().__init__(color)
