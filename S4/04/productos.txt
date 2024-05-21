@@ -1,0 +1,8 @@
+{"nombre": "Producto1", "precio": 10.99}
+{"nombre": "Producto2", "precio": 5.49}
+{"nombre": "Producto3", "precio": 10.99}
+{"nombre": "Producto4", "precio": 5.49}
+{"nombre": "Producto5", "precio": 7.25}
+
+{"nombre": "Producto1", "precio": 10.99}
+{"nombre": "Producto2", "precio": 5.49}
