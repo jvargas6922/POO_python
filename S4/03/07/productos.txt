@@ -1,0 +1,4 @@
+
+{"nombre": "Manzana", "precio": 30}
+{"nombre": "Banana", "precio": 20}
+{"nombre": "Naranja", "precio": 25}
