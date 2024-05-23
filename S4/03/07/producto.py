@@ -15,6 +15,8 @@ with open("productos.txt") as productos:
             producto = json.loads(linea)
             # Agrega un nuevo Producto a la lista de instancias
             instancias.append(Producto(producto.get("nombre"), producto.get("precio")))
+        except ValueError as e:
+            print(f"tipo de error: {e}")
         except json.JSONDecodeError as e:
             print(f"Error al cargar JSON: {e}")
 

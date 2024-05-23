@@ -1,0 +1,6 @@
+{"nombre":"nombre_1","precio":20}
+{"nombre":"nombre_2","precio":"30"}
+{"nombre":"nombre_3","precio":40}
+{"nombre":"nombre_4","precio":50}
+
+
